@@ -1,0 +1,541 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 100%;
+	background: #F1F3F6;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+.hwrapper{
+
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+	height:auto;
+}
+.wrapbg{
+	background-image: url(img/travell.jpg);
+	width: 100%;
+	height: 580px;
+    background-size: cover;
+
+
+}
+
+.left img {
+    position: absolute;
+    margin-left: 65px;
+    width: 100px;
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.right ul {
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+    border: solid 1px;
+    border-color: white;
+     width: 514px;
+    padding: 20px;
+    margin-right: 190px;
+    margin-top: 11px;
+}
+ .right li a {
+    text-decoration: none;
+    margin: -7px;
+    padding: 22px;
+    font-size: 12px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.right ul li a.active,
+.right ul li a:hover{
+	background:black;
+	    padding: 10px;   
+	
+}
+
+.bgtext h6 {
+    font-size: 56px;
+    color: white;
+    text-align: center;
+    padding: 211px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.bgtext h1 {
+    font-size: 118px;
+    color: white;
+    text-align: center;
+    margin-top: -182px;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.box {
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 63px;
+    margin-top: 47px;
+    box-shadow: 0 15px 0px rgba(0,0,0.);
+    position: absolute;
+    padding: 21px;
+}
+.box input {
+    width: 371px;
+    padding: 4px;
+    background: transparent
+}
+
+.bts {
+    background-color: #f8d200;
+    height: 29px;
+    width: 80px;
+}
+
+.box label {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 17px;
+    color: #f8d200;
+    padding: -7px;
+    margin-left: 86px;
+}
+.second {
+    display: inline-flex;
+    width: 100%;
+    }
+
+
+.size,
+.size2,
+.size3,img{
+    width: 63px;
+    height: 56px;
+}
+.second {
+    display: flex;
+    width: 100%;
+    margin-top: 108px;
+}
+
+.size { /* first  property*/
+    width: 323px;
+    height: auto;
+    padding-left: 88px;
+    margin-top: 0px;
+    align-content: center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.size img { /* first img property*/
+    margin-left: 125px;
+    margin-top: 34px;
+        padding: 6px;
+}
+ 
+.size h1 {
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+/*<arrow icon> image 1*/
+.arrw img {
+    border-radius: 100px
+ width:50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    
+    margin-top: 268px;
+    margin-left: -197px;
+}
+.size2 { /* second  property*/
+    width: 323px;
+    height: auto;
+    padding-left: 88px;
+    margin-top: 0px;
+    align-content: center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.size2 img { /* second img property*/
+    margin-left: 125px;
+    margin-top: 34px;
+        padding: 6px;
+}
+
+.size2 h1 { 
+
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px;
+
+}
+/*<arrow icon> image 2*/
+.arrw1 img {
+    border-radius: 100px
+ width:50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    
+    margin-top: 268px;
+    margin-left: -197px;
+}
+.size3 { /* third  property*/
+    width: 323px;
+    height: auto;
+    padding-left: 88px;
+    margin-top: 0px;
+    align-content: center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.size3 img { /* first img property*/
+    margin-left: 125px;
+    margin-top: 34px;
+        padding: 6px;
+}
+
+
+.size3 h1 { 
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px;
+}
+/*<arrow icon> image 3*/
+.arrw2 img {
+    border-radius: 100px
+ width:50px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    
+    margin-top: 268px;
+    margin-left: -197px;
+}
+/* one paragra*/
+.size p{
+	text-align: center;
+	padding: 4px;
+
+}
+
+
+/* seond paragra*/
+.size2 p{
+	text-align: center;
+	padding: 4px;
+}
+
+
+/* third paragra*/
+.size3 p{
+	text-align: center;
+	padding: 4px;
+}
+
+
+.arrwr img :hover{
+	background:red;
+}
+
+/*  part 3-----*/
+.graybg {
+    width: 88.1%;
+    height: 169px;
+    padding: 80px;
+    background: #c0c0c0;
+    margin-top: 65px;
+}
+
+.graytxt{
+	width: 100%
+}
+.graytxt h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 63px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.graytxt p {
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 21px;
+    padding-top: 31px;
+    text-align: center;
+}
+.graytxt h6 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #646464;
+    padding: 71px;
+    padding-top: 6px;
+    text-align: center;
+}
+.grayicon img {
+    position: absolute;
+    padding-left: 632px;
+    margin: -62px;
+    width: 45px;
+    height: 45px;
+
+}
+/*---part4 -*/
+.upcoming {
+    width: 100%;
+    height: 220px;
+}
+
+
+/* hearder section---*/
+#uptext h1 {
+    font-size: 24px;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    padding-top: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 7px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* text color */
+.flow h1 {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    -webkit-text-stroke: 0.199px #000;
+    font-size: 42px;
+    padding-right: -10px;
+    padding-left: 57px;
+    margin-top: 23px;
+    padding-top: 27px;
+    font-weight: initial;
+    margin-left: -34px;
+}
+.flow h1:before{
+    width: 0px;
+	content: attr(data-text);
+	position: absolute;
+	color:yellow;
+	white-space: nowrap;
+	transition: 1s;
+	overflow: hidden;
+}
+
+.flow h1:hover:before
+{
+	width: 90px;
+}
+ .flow p {
+    font-size: 11px;
+    width: 455;
+    margin-left: -2px;
+    margin-top: 50px;
+    padding: 6px;
+    align-content: center;
+     color: #646464;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.flow{
+	display: flex;
+	width: px;
+}
+
+/*  part 5  */
+
+.icons {
+    width: 100%;
+    height: 64px;
+    background: white;
+}
+
+.p4icon{
+	display: flex;
+}
+
+.p4icon img {
+    padding: -7px;
+    width: 90px;
+    height: 51px;
+    margin-right: 193px;
+    margin-left: 39px;
+    margin-right: 198px;
+}
+
+.p4icon label1 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 103px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 37px;
+}
+.p4icon label2 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 426px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px;
+}
+.p4icon label3 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 1086px;
+    font-family: 'Cookie', cursive;
+    font-size: 37px;
+}
+.p4icon label4 {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 763px;
+    font-family: 'Pacifico', cursive;
+    font-size: 37px;
+}
+/*----part6---*/
+.ftimg{
+	background-image: url(img/ftimg.jpg);
+	width:100%;
+	height: 480px;
+	
+    background-size: cover;
+
+}
+.content img {
+    position: absolute;
+    border-radius: 100px;
+    margin-left: 279px;
+    margin-top: 25px;
+}
+
+
+.wrap{
+	display: flex;
+	border-radius: 1px;
+}
+
+
+
+.content p {
+    font-size: 20px;
+    width: 366px;
+    border: solid 1px;
+    margin: 21px;
+    margin-right: -361px;
+    margin-left: 459px;
+    margin-top: 53px;
+    height: 330px;
+    letter-spacing: 2px;
+    padding-right: -1px;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+
+.content span {
+    font-size: 92px;
+    color: yellow;
+}
+
+.iconss img {
+    position: relative;
+    /* margin-right: -32px; */
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    top: -346px;
+    /* margin-top: -246px; */
+    padding: 2px;
+    padding-left: 40px;
+    /* position: fixed; */
+}
+
+.iconss ul li{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}
+#texts h1 {
+    font-size: 49px;
+    position: absolute;
+    color: yellow;
+    text-transform: uppercase;
+    margin-top: 170px;
+   font-family: 'Cookie', cursive;
+    margin-left: 60px;
+    font-weight: bold;
+}
+ #ft{
+   background: url(img/travell.jpg);
+    width: 200px
+    height:100px;
+ }
+.footer {
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 63px;
+    margin-top: 420px;
+    position: absolute;
+}
+.footer h6 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
